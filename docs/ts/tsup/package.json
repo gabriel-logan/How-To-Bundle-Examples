@@ -1,0 +1,14 @@
+{
+  "name": "tsup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsup index.ts --format cjs,esm --minify"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.7.2",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,1 @@
+function r(r,n){return r+n}export{r as sum};
